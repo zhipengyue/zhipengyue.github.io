@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>北京城建∙天坛府</title>
+  <style>
+    body{
+     margin: 0;
+     padding: 0;
+    }
+    .container{
+      position: relative;
+      padding:0 0 50px 0;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .p2{
+      width:100%;
+    }
+    #dibu{
+      position: absolute;
+      bottom: 10px;
+      width: calc(100% - 20px);
+      height: 40px;
+      left: 10px;
+      display: flex;
+    }
+    #dibu input{
+      flex-grow: 1;
+      height: 38px;
+      margin-top: 2px;
+      border: 2px solid #ffad29;
+      border-radius: 10px 0 0 10px;
+      box-shadow: inset 5px 5px 10px #cccccc;
+      background-color: #fbf5ed;
+      font-size: 0.9rem;
+      line-height: 1.0rem;
+      box-sizing: border-box;
+
+    }
+    #dibu .baominganniu{
+      width: 20%;
+      height: 40px;
+    }
+    .askme_box2{
+      _position: absolute;
+      position: fixed;
+      z-index: 100;
+      bottom: 44%;
+      right: 0px;
+      width: 10%;
+    }
+    a{
+      border: 0;
+    }
+    .telephoneicon{
+      width: 100%;
+      opacity: 0.65;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="p2" src="./p2.jpg" alt="">
+    <div class="askme_box2">
+      <a href="tel:4000666134" class="tel" name="拨打电话" style="text-decoration:none;">
+        <img class="telephoneicon" src="./iphone.gif">
+      </a>
+    </div>
+
+    <div id="dibu">
+      <input type="tel" name="mycall" id="mycall" placeholder="请输入电话号码 获得更多信息">
+      <img src="./baominganniu.png" id="baominganniu" onclick="">
+    </div>
+  </div>
+  
+</body>
+</html>
